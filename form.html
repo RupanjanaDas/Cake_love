@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do</title>
+    <link rel="stylesheet" href="./style_part.css" type="text/css">
+    <style>
+        #form{
+            width: 300px;
+            padding:24px;
+            margin-left: auto ;
+            margin-right: auto;
+           
+           border-collapse: collapse;
+           font-size: 20px;
+           margin-left: auto;
+           margin-right: auto;
+           background-color:white;
+           padding: 16px;
+           border-radius: 10px;
+           box-sizing: border-box;
+           box-shadow: 0 2px 5px #000;
+           background-color: azure;
+
+         
+        }
+        body{
+            margin: 0px;
+            background-color: #ffaa80;
+}
+        p{
+            margin:0;
+            margin-bottom: 4px;
+            margin-top: 12px;
+        }
+        #input{
+            width: 100%;
+        }
+        #check{
+            margin-top: 12px;
+            margin-bottom: 20px;
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="navbar-brand" href="./index.html">Cake Love </a>
+            <a class="a" href = "./form.html" alt = ""><span>Sign up</span></a>
+            <a class="a" href = "./cont2.html" alt = ""><span>Contact</span></a>
+            <a class="a" href = "./About_us.html" alt = ""><span>About us</span></a>
+        </nav>
+    </header>
+    <h1 style="text-align: center;">Sing Up</h1>
+    <form id="form">
+        <div>
+           <p>Fullname</p>
+           <input id="input" type="text" name="full-name">
+        </div>
+
+
+        <div>
+            <p>Email</p>
+            <input id="input" type="email" name="email" required>
+        </div>
+
+
+
+        <div>
+           <p> Password</p>
+            <input id="input" type="password" name="password" required>
+        </div>
+
+
+
+        <div>
+            <p> Confrim Password</p>
+            <input id="input" type="password" name="confirm-password">
+        </div>
+
+
+
+        <div>
+        <p>Gender</p>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+        </div>
+
+
+
+
+        <div>
+            <p> Security Question:</p>
+             <select id="input">
+                 <option value="first-pet-name">
+                    what is your first pet name?
+                 </option>
+                 <option value="first-job-name">
+                     what is your first job name?
+                 </option>
+                 <option value="nick-name">
+                     what is your nick name?
+                 </option>
+             </select>
+         </div>
+
+         <div>
+            <textarea id="input" name= answer rows="5" cols="20">
+
+            </textarea>
+        </div>
+
+        <div>
+            <input id="check"  type="checkbox" name="terms-conditions">I accept conditions
+        </div>
+
+        <div style="text-align: center;">
+            <input  type="submit"  value="Register">
+        </div>
+
+    </form>
+    <footer>Mail us at abc@gmail.com</footer>
+</body>
+</html>
